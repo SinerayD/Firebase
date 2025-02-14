@@ -170,3 +170,32 @@ body {
         opacity: 1;
     }
 }
+
+/* Toast Custom Styles */
+.Toastify__toast-container {
+    width: auto !important;
+}
+
+.Toastify__toast {
+    border-radius: 10px !important;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 15px !important;
+    text-align: center;
+}
+
+.Toastify__toast--success {
+    background: #A7C7E7 !important;
+    /* Light blue */
+    color: white !important;
+}
+
+.Toastify__toast--error {
+    background: #f16d6b !important;
+    /* Red */
+    color: white !important;
+}
+
+.Toastify__progress-bar {
+    background: white !important;
+}
